@@ -196,7 +196,9 @@ const HomePage = () => {
                 target="_blank"
               >
                 <Card>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 items-center">
+                    {" "}
+                    {/* Added items-center to center the image and text vertically */}
                     <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                       <Image
                         fill
@@ -212,8 +214,10 @@ const HomePage = () => {
                           ↗
                         </span>{" "}
                       </p>
-                      <p className="text-sm font-normal text-accent/50">
-                        A Interactive sales dashboards.
+                      <p className="text-xs font-normal text-accent/50">
+                        Analyzed grocery sales data and created dashboards in
+                        Power BI and Excel to improve decision-making and
+                        reporting efficiency.
                       </p>
                     </div>
                   </div>
@@ -232,7 +236,7 @@ const HomePage = () => {
                 className="group"
               >
                 <Card>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 items-center">
                     <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                       <Image
                         fill
@@ -248,8 +252,9 @@ const HomePage = () => {
                           ↗
                         </span>{" "}
                       </p>
-                      <p className="text-sm font-normal text-accent/50">
-                        Comprehensive ride analytics dashboards.
+                      <p className="text-xs font-normal text-accent/50">
+                        Analyzed 100,000+ OLA rides, built dashboards to track
+                        performance, and helped reduce cancellations by 10%.
                       </p>
                     </div>
                   </div>
@@ -269,7 +274,7 @@ const HomePage = () => {
                 className="group"
               >
                 <Card>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 items-center">
                     <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                       <Image
                         fill
@@ -285,8 +290,9 @@ const HomePage = () => {
                           ↗
                         </span>{" "}
                       </p>
-                      <p className="text-sm font-normal text-accent/50">
-                        Road safety insights dashboard
+                      <p className="text-xs font-normal text-accent/50">
+                        Analyzed road accident data with Power BI to identify
+                        safety trends and create decision-making dashboards.
                       </p>
                     </div>
                   </div>
@@ -306,7 +312,7 @@ const HomePage = () => {
                 className="group"
               >
                 <Card>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 items-center">
                     <div className="relative min-w-32 min-h-20 max-w-32 max-h-20 rounded-lg">
                       <Image
                         fill
@@ -322,8 +328,9 @@ const HomePage = () => {
                           ↗
                         </span>{" "}
                       </p>
-                      <p className="text-sm font-normal text-accent/50">
-                        Loan performance analysis dashboard
+                      <p className="text-xs font-normal text-accent/50">
+                        Analyzed bank loan data in Excel to track performance
+                        and created dashboards for better loan decisions.
                       </p>
                     </div>
                   </div>
